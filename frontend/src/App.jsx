@@ -1,13 +1,22 @@
-import { useState } from 'react'
+import React from 'react'
+import img from '../src/assets/image-product-desktop.jpg'
 
 function App() {
 
   return (
-    <>
+    <main>
       <div>
-        <h1>HELLLO</h1>
+        <div className=''>
+          <div>
+            <img src={img} alt="" />
+          </div>
+          <div>
+            <h5>Perfume</h5>
+            <h2>Gabreille Essence Eau De Parfum</h2>
+          </div>
+        </div>
       </div>
-    </>
+    </main>
   )
 }
 
