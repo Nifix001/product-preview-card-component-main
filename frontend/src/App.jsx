@@ -22,10 +22,10 @@ function App() {
             <img src={screen < 1000 ? img1 : img} alt="product" className='rounded-l-xl xs:max-lg:rounded-t-xl object-fit w-full h-full' />
           <div className='px-6 py-8 bg-white rounded-r-xl grid xs:max-lg:rounded-b-xl'>
             <h3 className='font-mont opacity-70 tracking-widee'>PERFUME</h3>
-            <h1 className='font-Frau text-5xl text-black font-extrabold'>Gabreille Essence Eau De Parfum</h1>
-            <p className='font-Frau opacity-70 text-xl font-medium'>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-            <div className='flex gap-8 items-center mb-2'>
-              <p className='font-Frau text-5xl text-dc font-bold'>$149.99</p>
+            <h1 className='font-Frau text-3xl text-black font-extrabold'>Gabreille Essence Eau De Parfum</h1>
+            <p className='font-Frau opacity-70 text-sm font-medium'>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div className='flex gap-4 items-center mb-2'>
+              <p className='font-Frau text-3xl text-dc font-bold'>$149.99</p>
               <p className='font-mont opacity-50 line-through'>$169.99</p>
             </div>
             <button className='bg-dc flex justify-center items-center text-white text-mont font-medium text-xl rounded-md gap-3 p-1 hover:bg-green-900'> <img src={icon} alt="icon" /> Add to Cart</button>
